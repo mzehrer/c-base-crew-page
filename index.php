@@ -76,11 +76,27 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
         </header>
         <h3>c-base relateD:</h3>
         <ul>
-            <li><a href="#">-</a></li>
+<?php
+
+foreach($projects as $project)
+{
+    if($project['c-base'])
+        echo "            <li><a href=\"".$project['url']."\">".$project['name']."</a></li>\n";
+}
+
+?>
         </ul>
         <h3>otheR:</h3>
         <ul>
-            <li><a href="#">-</a></li>
+<?php
+
+foreach($projects as $project)
+{
+    if(!$project['c-base'])
+        echo "            <li><a href=\"".$project['url']."\">".$project['name']."</a></li>\n";
+}
+
+?>
         </ul>
     </article>
     <article>
