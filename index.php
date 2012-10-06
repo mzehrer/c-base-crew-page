@@ -1,7 +1,7 @@
 <?php
 
 /**
- * c-base crew page template v0.9
+ * c-base crew page template v0.10
  * by XeN 2012
  * https://github.com/XenGi/c-base-crew-page
  */
@@ -46,7 +46,10 @@ function new_urlencode($in)
 <?php
 
 if($member_pic) echo "    <img src=\"member_pic.png\" alt=\"Picture of ".$member_name."\" />\n";
-
+else
+{
+    // non standard member picture here
+}
 ?>
     <h1>[<?php echo $member_name; ?>]</h1>
 </header>
