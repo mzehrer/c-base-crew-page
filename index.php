@@ -88,8 +88,14 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
             <h2>other websiteS:</h2>
         </header>
         <ul>
-            <li><a href="#">some site</a></li>
-            <li><a href="#">some other site</a></li>
+<?php
+
+foreach($websites as $website)
+{
+    echo "            <li><a href=\"".$website['url']."\">".$website['name']."</a></li>\n";
+}
+
+?>
         </ul>
     </article>
     <article>

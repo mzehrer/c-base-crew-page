@@ -32,5 +32,8 @@ $tag_border = 0;
 $contactdetails = array(array('type' => 'twitter', 'id' => '@exampleuser', 'url' => 'https://twitter.com/exampleuser'),
                         array('type' => 'gplus', 'id' => 'exampleuser', 'url' => 'http://gplus.to/exampleuser'),
                         array('type' => 'xmpp/c-mail', 'id' => 'exampleuser (a) c-base . org', 'url' => 'mailto:exampleuser@c-base.org'));
+// add your websites:
+$websites = array(array('name' => 'example blog', 'url' => 'http://example.com/'),
+                  array('name' => 'my github', 'url' => 'http://github.com/exampleuser'));
 
 ?>
