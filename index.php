@@ -69,12 +69,11 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
         </header>
         <h3>c-base relateD:</h3>
         <ul>
-            <li><a href="https://github.com/XenGi/c-mobile">c-mobile</a></li>
+            <li><a href="#">-</a></li>
         </ul>
         <h3>otheR:</h3>
         <ul>
-            <li><a href="https://www.ohloh.net/p/PyPaH">PyPaH</a></li>
-            <li><a href="http://megazord.xengi.de/">MegaZord</a></li>
+            <li><a href="#">-</a></li>
         </ul>
     </article>
     <article>
