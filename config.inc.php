@@ -24,5 +24,8 @@ $tag_bg = "000";
 $tag_color = "0F0";
 // choose rounded border (0) or rectangles (1):
 $tag_border = 0;
+// add your contact details:
+$contact = array(array('type' => 'twitter', 'id' => '@MEMBERNAME', 'url' => 'https://twitter.com/MEMBERNAME'),
+                 array('type' => 'gplus', 'id' => 'MEMBERNAME', 'url' => 'http://gplus.to/MEMBERNAME'));
 
 ?>
