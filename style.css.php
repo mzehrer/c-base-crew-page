@@ -1,7 +1,7 @@
 <?php
 
 /**
- * c-base crew page template v0.42
+ * c-base crew page template v1.0b
  * by XeN 2012
  * https://github.com/XenGi/c-base-crew-page
  */
