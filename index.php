@@ -55,6 +55,12 @@ else
 </header>
 
 <section>
+<?php
+
+if($area_groups)
+{
+
+?>
     <article>
         <header>
             <h2>groupS:</h2>
@@ -70,6 +76,13 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
 ?>
         </ul>
     </article>
+<?php
+
+}
+if($area_projects)
+{
+
+?>
     <article>
         <header>
             <h2>projectS:</h2>
@@ -99,6 +112,13 @@ foreach($projects as $project)
 ?>
         </ul>
     </article>
+<?php
+
+}
+if($area_websites)
+{
+
+?>
     <article>
         <header>
             <h2>other websiteS:</h2>
@@ -114,6 +134,13 @@ foreach($websites as $website)
 ?>
         </ul>
     </article>
+<?php
+
+}
+if($area_contact)
+{
+
+?>
     <article>
         <header>
             <h2>contacT:</h2>
@@ -129,6 +156,13 @@ foreach($contactdetails as $detail)
 ?>
         </ul>
     </article>
+<?php
+
+}
+if($area_tags)
+{
+
+?>
     <article>
         <header>
             <h2>tagS:</h2>
@@ -144,6 +178,11 @@ foreach($tags as $tag)
 ?>
         </p>
     </article>
+<?php
+
+}
+
+?>
 </section>
 
 <footer>

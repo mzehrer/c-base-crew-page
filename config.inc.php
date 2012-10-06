@@ -12,6 +12,12 @@
 #######################
 */
 
+// enable or disable areas you don't want:
+$area_groups = true;
+$area_projects = true;
+$area_websites = true;
+$area_contact = true;
+$area_tags = true;
 // set your member name here:
 $member_name = "no_member_name";
 // enable or disable your member picture (member_pic.png):
