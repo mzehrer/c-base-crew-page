@@ -16,7 +16,7 @@ include('config.inc.php');
 * { margin: 0; padding: 0; }
 body { background-color: black; color: lime; font: 11px Verdana,Helvetica,sans-serif; }
 a { color: lime; text-decoration: none; font-weight: bold; }
-#c-base { font-size: 8px; text-align: center; }
+small { font-size: 8px }
 header,footer { text-align: center; margin: 10px; }
 h1,h2,h3 { font-weight: bold; }
 h1 { font-size: 18px; }
@@ -37,6 +37,4 @@ else
 {
     echo "img.tag:hover { border: 2px solid lime; margin: 0; }";
 }
-
 ?>
-

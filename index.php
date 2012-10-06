@@ -25,15 +25,15 @@ function new_urlencode($in)
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>MEMBERNAME@c-base</title>
+    <title><?php echo $member_name; ?>@c-base</title>
     <style>
 @import url('style.css.php') all;
     </style>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <meta name="author" content="MEMBERNAME" />
-    <meta name="description" content="MEMBERNAMEs c-base crew page" />
+    <meta name="author" content="<?php echo $member_name; ?>" />
+    <meta name="description" content="<?php echo $member_name; ?>'s c-base crew page" />
     <meta name="keywords" content="<?php for($i=0; $i < count($tags)-1; $i++) { echo htmlspecialchars($tags[$i]).','; } echo htmlspecialchars($tags[count($tags)-1]); ?>" />
     <meta name="robots" content="all" />
     <meta http-equiv="expires" content="0" />
@@ -43,8 +43,12 @@ function new_urlencode($in)
 <body>
 
 <header>
-<?php include('img.inc.php'); ?>
-    <h1>[MEMBERNAME]</h1>
+<?php
+
+if($member_pic) echo "    <img src=\"member_pic.png\" alt=\"Picture of ".$member_name."\" />\n";
+
+?>
+    <h1>[<?php echo $member_name; ?>]</h1>
 </header>
 
 <section>
@@ -114,7 +118,8 @@ foreach($tags as $tag)
 </section>
 
 <footer>
-    <p>by [MEMBERNAME] 2012</p>
+    <p>by <?php echo $member_name; ?></p>
+    <p><small>crew page template by <a href="http://xen.crew.c-base.org">XeN</a></small></p>
 </footer>
 
 </body>

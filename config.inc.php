@@ -12,6 +12,10 @@
 #######################
 */
 
+// set your member name here:
+$member_name = "no_member_name";
+// enable or disable your member picture (member_pic.png):
+$member_pic = true;
 //define your tags here:
 $groups = array('nerd area');
 //define your tags here:
