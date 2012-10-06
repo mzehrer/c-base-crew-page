@@ -97,10 +97,14 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
             <h2>contacT:</h2>
         </header>
         <ul>
-            <li>twitter: <a href="#">-</a></li>
-            <li>gplus: <a href="#">-</a></li>
-            <li>xmpp/c-mail: <a href="mailto:#">-</a></li>
-            <li>external email: <a href="mailto:#">-</a></li>
+<?php
+
+foreach($contactdetails as $detail)
+{
+    echo "            <li>".$detail['type'].": <a href=\"".$detail['url']."\">".$detail['id']."</a></li>\n";
+}
+
+?>
         </ul>
     </article>
     <article>

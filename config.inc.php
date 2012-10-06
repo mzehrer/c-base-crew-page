@@ -29,7 +29,8 @@ $tag_color = "0F0";
 // choose rounded border (0) or rectangles (1):
 $tag_border = 0;
 // add your contact details:
-$contact = array(array('type' => 'twitter', 'id' => '@MEMBERNAME', 'url' => 'https://twitter.com/MEMBERNAME'),
-                 array('type' => 'gplus', 'id' => 'MEMBERNAME', 'url' => 'http://gplus.to/MEMBERNAME'));
+$contactdetails = array(array('type' => 'twitter', 'id' => '@exampleuser', 'url' => 'https://twitter.com/exampleuser'),
+                        array('type' => 'gplus', 'id' => 'exampleuser', 'url' => 'http://gplus.to/exampleuser'),
+                        array('type' => 'xmpp/c-mail', 'id' => 'exampleuser (a) c-base . org', 'url' => 'mailto:exampleuser@c-base.org'));
 
 ?>
