@@ -25,15 +25,15 @@ function new_urlencode($in)
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>XeN@c-base</title>
+    <title>MEMBERNAME@c-base</title>
     <style>
 @import url('style.css.php') all;
     </style>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <meta name="author" content="XeN" />
-    <meta name="description" content="XeNs c-base crew page" />
+    <meta name="author" content="MEMBERNAME" />
+    <meta name="description" content="MEMBERNAMEs c-base crew page" />
     <meta name="keywords" content="<?php for($i=0; $i < count($tags)-1; $i++) { echo htmlspecialchars($tags[$i]).','; } echo htmlspecialchars($tags[count($tags)-1]); ?>" />
     <meta name="robots" content="all" />
     <meta http-equiv="expires" content="0" />
@@ -44,7 +44,7 @@ function new_urlencode($in)
 
 <header>
 <?php include('img.inc.php'); ?>
-    <h1>[XeN]</h1>
+    <h1>[MEMBERNAME]</h1>
 </header>
 
 <section>
@@ -82,11 +82,8 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
             <h2>other websiteS:</h2>
         </header>
         <ul>
-            <li><a href="http://xengi.de/">primary blog</a></li>
-            <li><a href="http://makesyouhappy.org/">secondary blog</a></li>
-            <li><a href="http://bugs.xengi.de/">bugtracker</a></li>
-            <li><a href="https://github.com/XenGi/">github</a></li>
-            <li><a href="https://www.ohloh.net/accounts/XenGi">ohloh</a></li>
+            <li><a href="#">some site</a></li>
+            <li><a href="#">some other site</a></li>
         </ul>
     </article>
     <article>
@@ -94,10 +91,10 @@ echo "            <li><a href=\"http://crew.c-base.org/?group=".new_urlencode($g
             <h2>contacT:</h2>
         </header>
         <ul>
-            <li>twitter: <a href="https://twitter.com/XenGi_">@XenGi_</a></li>
-            <li>gplus: <a href="http://gplus.to/XenGi">XenGi</a></li>
-            <li>xmpp/c-mail: <a href="mailto:xen@c-base.org">xen (a) c-base . org</a></li>
-            <li>external email: <a href="mailto:me@xengi.de">me (a) xengi . de</a></li>
+            <li>twitter: <a href="#">-</a></li>
+            <li>gplus: <a href="#">-</a></li>
+            <li>xmpp/c-mail: <a href="mailto:#">-</a></li>
+            <li>external email: <a href="mailto:#">-</a></li>
         </ul>
     </article>
     <article>
@@ -118,7 +115,7 @@ foreach($tags as $tag)
 </section>
 
 <footer>
-    <p>by [XeN] 2012</p>
+    <p>by [MEMBERNAME] 2012</p>
 </footer>
 
 </body>
