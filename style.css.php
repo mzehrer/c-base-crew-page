@@ -27,6 +27,7 @@ p { margin: 0 25px; }
 img { border: none; margin: 2px; }
 article { max-width: 480px; margin: 0 auto; padding: 10px; border-left: 1px dashed lime; border-right: 1px dashed lime; }
 .cloud { line-height:33px; max-width: 440px; }
+.left { text-align: left; }
 <?php
 
 if($tag_border == 0)

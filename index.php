@@ -186,6 +186,7 @@ foreach($tags as $tag)
 </section>
 
 <footer>
+    <p class="left"><a href="http://crew.c-base.org/">&lt;&lt; all crew pages</a></p>
     <p>by <?php echo $member_name; ?></p>
     <p><small>crew page template by <a href="http://xen.crew.c-base.org">XeN</a></small></p>
 </footer>
